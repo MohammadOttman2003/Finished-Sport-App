@@ -61,7 +61,7 @@ injuries = {
         "Treatment": "Rest, ice, compression, and elevation; physical therapy for more severe strains.",
         "Recovery Exercises": ["Gentle stretching", "Strengthening exercises starting with light activity"]
     },
-"stress fractures": {
+    "stress fractures": {
         "Description": "Small cracks in a bone caused by repetitive force, often from overuse.",
         "Common Sports": ["Track and Field", "Basketball", "Tennis", "Dance"],
         "Treatment": "Rest is crucial. Avoiding the activity that caused the injury until healed. May require protective footwear or braces.",
@@ -78,7 +78,134 @@ injuries = {
         "Common Sports": ["Volleyball", "Basketball", "Track and Field activities involving jumping"],
         "Treatment": "Rest, ice, compression, and elevation. In some cases, corticosteroid injections or surgery may be necessary.",
         "Recovery Exercises": ["Quad stretches", "Leg presses", "Gradual return to jumping activities"]
+    },
+    "Lumbar Radiculopathy": {
+        "Description": "Compression of the lumbar nerves causing pain or discomfort radiating down the leg.",
+        "Common Sports": ["Weightlifting", "Golf", "Cycling"],
+        "Treatment": "Physical therapy, anti-inflammatory medication, and in some cases, surgery.",
+        "Recovery Exercises": ["Lower back stretches", "Core strengthening exercises", "Aerobic conditioning"]
+    },
+    "Plantar Fasciitis": {
+        "Description": "Inflammation of the plantar fascia, the thick band of tissue on the bottom of the foot.",
+        "Common Sports": ["Running", "Ballet", "Aerobic sports"],
+        "Treatment": "Rest, ice, physical therapy, and night splints or orthotics.",
+        "Recovery Exercises": ["Arch stretches", "Toe stretches", "Calf stretches"]
+    },
+    "MCL Sprain": {
+        "Description": "A sprain or tear of the medial collateral ligament on the inside of the knee.",
+        "Common Sports": ["Football", "Skiing", "Soccer"],
+        "Treatment": "Bracing, rest, ice, and compression. Severe sprains may require surgery.",
+        "Recovery Exercises": ["Hamstring curls", "Leg presses", "Knee flexion/extension"]
+    },
+    "Costochondritis": {
+        "Description": "Inflammation of the cartilage that connects a rib to the breastbone, causing chest pain.",
+        "Common Sports": ["Rowing", "Golf", "Tennis"],
+        "Treatment": "Rest, heat or ice application, and pain relievers.",
+        "Recovery Exercises": ["Stretching exercises for the chest", "Gentle strengthening for the upper body"]
+    },
+    "Pectoralis Major Tear": {
+        "Description": "A tear of the pectoralis major muscle, common in activities involving heavy lifting.",
+        "Common Sports": ["Weightlifting", "Wrestling", "Football"],
+        "Treatment": "Ice, rest, and anti-inflammatory medication. Severe tears may require surgical repair.",
+        "Recovery Exercises": ["Gentle stretching of the shoulder", "Gradual strength building"]
+    },
+    "Ulnar Collateral Ligament Injury": {
+        "Description": "An injury to the ligament on the inner side of the elbow, often seen in throwing sports.",
+        "Common Sports": ["Baseball", "Javelin throw"],
+        "Treatment": "Rest, ice, and compression. Surgery known as Tommy John surgery may be needed for competitive athletes.",
+        "Recovery Exercises": ["Elbow stretches", "Wrist stretches", "Gradual throwing program"]
+    },
+    "Navicular Fracture": {
+        "Description": "A break in the navicular bone in the midfoot, often due to impact or overuse.",
+        "Common Sports": ["Running", "Basketball", "Ballet"],
+        "Treatment": "Immobilization in a cast or boot, with potential for surgery depending on the severity.",
+        "Recovery Exercises": ["Toe curls", "Foot doming", "Gradual weight-bearing exercises"]
+    },
+    "Slap Lesion": {
+        "Description": "A tear of the cartilage in the shoulder joint known as the labrum, specifically at the top where the bicep tendon attaches.",
+        "Common Sports": ["Baseball", "Tennis", "Swimming"],
+        "Treatment": "Physical therapy, and potentially arthroscopic surgery.",
+        "Recovery Exercises": ["Shoulder stabilization exercises", "Rotator cuff strengthening",
+                               "Scapular mobility exercises"]
+    },
+    "Compartment Syndrome": {
+        "Description": "Increased pressure within one of the body's compartments which contains muscles and nerves, leading to muscle and nerve damage.",
+        "Common Sports": ["Running", "Football", "Cycling"],
+        "Treatment": "Surgical intervention known as fasciotomy is often required for acute cases.",
+        "Recovery Exercises": ["Muscle stretching and strengthening", "Aerobic conditioning",
+                               "Gentle muscle reconditioning"]
+    },
+    "Cubital Tunnel Syndrome": {
+        "Description": "A condition caused by increased pressure on the ulnar nerve at the elbow.",
+        "Common Sports": ["Baseball", "Tennis", "Golf"],
+        "Treatment": "Bracing or splinting, physical therapy, and in severe cases, surgery.",
+        "Recovery Exercises": ["Elbow and wrist stretches", "Nerve gliding exercises",
+                               "Strengthening exercises for the arm"]
+    },
+    "Lumbar Radiculopathy": {
+        "Description": "Compression of the lumbar nerves causing pain or discomfort radiating down the leg.",
+        "Common Sports": ["Weightlifting", "Golf", "Cycling"],
+        "Treatment": "Physical therapy, anti-inflammatory medication, and in some cases, surgery.",
+        "Recovery Exercises": ["Lower back stretches", "Core strengthening exercises", "Aerobic conditioning"]
+    },
+    "Plantar Fasciitis": {
+        "Description": "Inflammation of the plantar fascia, the thick band of tissue on the bottom of the foot.",
+        "Common Sports": ["Running", "Ballet", "Aerobic sports"],
+        "Treatment": "Rest, ice, physical therapy, and night splints or orthotics.",
+        "Recovery Exercises": ["Arch stretches", "Toe stretches", "Calf stretches"]
+    },
+    "MCL Sprain": {
+        "Description": "A sprain or tear of the medial collateral ligament on the inside of the knee.",
+        "Common Sports": ["Football", "Skiing", "Soccer"],
+        "Treatment": "Bracing, rest, ice, and compression. Severe sprains may require surgery.",
+        "Recovery Exercises": ["Hamstring curls", "Leg presses", "Knee flexion/extension"]
+    },
+    "Costochondritis": {
+        "Description": "Inflammation of the cartilage that connects a rib to the breastbone, causing chest pain.",
+        "Common Sports": ["Rowing", "Golf", "Tennis"],
+        "Treatment": "Rest, heat or ice application, and pain relievers.",
+        "Recovery Exercises": ["Stretching exercises for the chest", "Gentle strengthening for the upper body"]
+    },
+    "Pectoralis Major Tear": {
+        "Description": "A tear of the pectoralis major muscle, common in activities involving heavy lifting.",
+        "Common Sports": ["Weightlifting", "Wrestling", "Football"],
+        "Treatment": "Ice, rest, and anti-inflammatory medication. Severe tears may require surgical repair.",
+        "Recovery Exercises": ["Gentle stretching of the shoulder", "Gradual strength building"]
+    },
+    "Ulnar Collateral Ligament Injury": {
+        "Description": "An injury to the ligament on the inner side of the elbow, often seen in throwing sports.",
+        "Common Sports": ["Baseball", "Javelin throw"],
+        "Treatment": "Rest, ice, and compression. Surgery known as Tommy John surgery may be needed for competitive athletes.",
+        "Recovery Exercises": ["Elbow stretches", "Wrist stretches", "Gradual throwing program"]
+    },
+    "Navicular Fracture": {
+        "Description": "A break in the navicular bone in the midfoot, often due to impact or overuse.",
+        "Common Sports": ["Running", "Basketball", "Ballet"],
+        "Treatment": "Immobilization in a cast or boot, with potential for surgery depending on the severity.",
+        "Recovery Exercises": ["Toe curls", "Foot doming", "Gradual weight-bearing exercises"]
+    },
+    "Slap Lesion": {
+        "Description": "A tear of the cartilage in the shoulder joint known as the labrum, specifically at the top where the bicep tendon attaches.",
+        "Common Sports": ["Baseball", "Tennis", "Swimming"],
+        "Treatment": "Physical therapy, and potentially arthroscopic surgery.",
+        "Recovery Exercises": ["Shoulder stabilization exercises", "Rotator cuff strengthening",
+                               "Scapular mobility exercises"]
+    },
+    "Compartment Syndrome": {
+        "Description": "Increased pressure within one of the body's compartments which contains muscles and nerves, leading to muscle and nerve damage.",
+        "Common Sports": ["Running", "Football", "Cycling"],
+        "Treatment": "Surgical intervention known as fasciotomy is often required for acute cases.",
+        "Recovery Exercises": ["Muscle stretching and strengthening", "Aerobic conditioning",
+                               "Gentle muscle reconditioning"]
+    },
+    "Cubital Tunnel Syndrome": {
+        "Description": "A condition caused by increased pressure on the ulnar nerve at the elbow.",
+        "Common Sports": ["Baseball", "Tennis", "Golf"],
+        "Treatment": "Bracing or splinting, physical therapy, and in severe cases, surgery.",
+        "Recovery Exercises": ["Elbow and wrist stretches", "Nerve gliding exercises",
+                               "Strengthening exercises for the arm"]
     }
+
 }
 
 
